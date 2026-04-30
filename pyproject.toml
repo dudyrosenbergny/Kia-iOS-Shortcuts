@@ -1,10 +1,12 @@
 [project]
-name = "python-template"
+name = "kia-ios-shortcuts"
 version = "0.1.0"
-description = ""
-authors = [{name = "User", email = "user@example.com"}]
-requires-python = ">=3.11"
+description = "Genesis Shortcut Bridge"
+requires-python = ">=3.9"
 dependencies = [
-    "flask>=3.1.0",
-    "hyundai-kia-connect-api>=3.32.7",
+    "flask",
+    "hyundai-kia-connect-api"
 ]
+
+[[project.authors]]
+name = "User"
